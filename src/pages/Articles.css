@@ -1,0 +1,77 @@
+.articles-page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero */
+.articles-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(rgba(82, 44, 82, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../assets/images/articles-banner.jpg") center/cover no-repeat;
+  color: white;
+}
+
+.articles-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.articles-hero p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Grid Layout */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 50px 20px;
+}
+
+.article-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.article-card:hover {
+  transform: translateY(-10px);
+}
+
+.article-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article-card h3 {
+  color: purple;
+  padding: 15px 10px 5px;
+}
+
+.article-card p {
+  padding: 0 15px 15px;
+  color: #555;
+}
+
+.article-card button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: purple;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.article-card button:hover {
+  background: white;
+  color: purple;
+  border: 2px solid purple;
+}

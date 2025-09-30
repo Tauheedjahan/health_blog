@@ -1,0 +1,130 @@
+.about-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero */
+.about-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(rgba(128, 0, 128, 0.7), rgba(128, 0, 128, 0.7)),
+    url("../assets/images/about.jpg") center/cover no-repeat; /* ✅ Purple overlay strong */
+  color: white;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Our Story */
+.about-story {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.story-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+}
+
+.story-text {
+  flex: 1;
+}
+
+.story-text h2 {
+  color: purple;
+  margin-bottom: 15px;
+}
+
+/* Mission & Vision */
+.about-mission {
+  display: flex;
+  gap: 20px;
+  padding: 50px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mission-card {
+  flex: 1;
+  min-width: 280px;
+  padding: 30px;
+  border-radius: 15px;
+  background: #f3e5f5;
+  text-align: center;
+}
+
+.mission-card h3 {
+  color: purple;
+  margin-bottom: 10px;
+}
+
+/* Team Section */
+.about-team {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.team-member {
+  width: 220px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  height: 300px;             /* ✅ fix height so all equal */
+  object-fit: cover;         /* ✅ crop properly */
+  border-radius: 55%;        /* ✅ oval shape instead of full circle */
+  margin-bottom: 15px;
+}
+
+.team-member h4 {
+  color: purple;
+}
+
+/* CTA */
+.about-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f3e5f5;
+}
+
+.about-cta h2 {
+  color: purple;
+  margin-bottom: 10px;
+}
+
+.about-cta button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: purple;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.about-cta button:hover {
+  background: white;
+  color: purple;
+  border: 2px solid purple;
+}

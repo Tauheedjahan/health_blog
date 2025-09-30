@@ -1,0 +1,60 @@
+.programs-container {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.programs-heading {
+  font-size: 2.5rem;
+  color: purple;
+  margin-bottom: 40px;
+}
+
+.program-card {
+  background: white;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.program-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.program-content {
+  padding: 15px;
+}
+
+.program-content h3 {
+  margin: 15px 0 10px;
+  color: purple;
+}
+
+.program-content p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.join-btn {
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  background-color: white;
+  color: purple;
+  border: 2px solid purple;
+}

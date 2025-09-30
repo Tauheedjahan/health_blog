@@ -1,0 +1,47 @@
+.features-container {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features-heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature-card {
+  width: 200px;
+  height: 180px;
+  border-radius: 15px;
+  background: purple; /* default purple */
+  color: white;       /* default text white */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 2px solid purple;
+}
+
+.feature-card:hover {
+  background: white;  /* hover white */
+  color: purple;      /* hover text purple */
+  border: 2px solid purple;
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
