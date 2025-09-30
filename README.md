@@ -14,7 +14,7 @@ A simple and responsive health blog website to share fitness, nutrition, and wel
 - JavaScript
 
 ## Demo
-[Live Demo](https://tauheedjahan.github.io/health_blog/)  <!-- GitHub Pages link -->
+[Live Demo](https://health-blog-ebon.vercel.app/)  <!-- Vercel Deployment link -->
 
 ## Installation
 1. Clone the repository:
